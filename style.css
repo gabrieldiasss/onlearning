@@ -99,13 +99,11 @@ header .buttons button {
     font-size: 1.8rem;
 }
 
-
-
-section {
+#text-main {
     background-color: #FFEDE9;
 }
 
-section .content {
+#text-main .content {
 
     padding-top: 3.8rem;
 
@@ -116,11 +114,11 @@ section .content {
     max-width: 1200px;
 } 
 
-section .content h1 {
+#text-main .content h1 {
     font-size: 5.6rem;
 }
 
-section .content h3 {
+#text-main .content h3 {
     margin-top: 1.2rem;
     font-size: 2.6rem;
     
@@ -128,7 +126,7 @@ section .content h3 {
     color: #9D9497;
 }
 
-section .content button {
+#text-main .content button {
     padding: 2rem 2.4rem;
     margin-top: 1.6rem;
 
@@ -142,3 +140,26 @@ section .content button {
 .img {
     width: 50rem;
 }
+
+#companys{
+    margin-top: 3.2rem;
+    text-align: center;
+}
+
+#companys h1{
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+
+#companys div{
+    display: flex;
+    align-items: flex-start;
+    gap: 4.6rem;
+
+    justify-content: center;
+
+    margin-top: 2.6rem;
+}
+
+
+
