@@ -163,6 +163,7 @@ header .buttons button {
     justify-content: center;
 
     margin-top: 2.6rem;
+    cursor: pointer;
 }
 
 #instructors {
@@ -188,7 +189,7 @@ header .buttons button {
     font-size: 2.2rem;
     font-weight: 500;
 
-    margin: 1.6rem 0;
+    margin: 2.2rem 0;
 
     color: #9D9497;
 }
@@ -201,6 +202,84 @@ header .buttons button {
     font-size: 2rem;
     gap: 1.2rem;
 }
+
+#popular-courses {
+    padding: 6.4rem;
+}
+
+#popular-courses .content {
+
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#popular-courses .header-popularCourses h1 {
+    font-size: 4rem;
+}
+
+#popular-courses .header-popularCourses h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #9D9497;
+    margin-top: 1.2rem;
+}
+
+#popular-courses .header-popularCourses  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#popular-courses .header-popularCourses p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #0037D4;
+
+}
+
+#popular-courses .header-popularCourses p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#popular-courses main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.2rem;
+    margin-top: 6.4rem;
+}
+
+#popular-courses main .box {
+    width: 38rem;
+    position: relative;
+
+    overflow: hidden;
+}
+
+#popular-courses main .box img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* #popular-courses main .content {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+    font-weight: 500;
+
+    color: #fff;
+
+    display: none;
+}
+ */
+
 
 
 
