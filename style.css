@@ -42,9 +42,8 @@ header .content {
     align-items: center;
     justify-content: space-between;
 
-    height: 80px;
+    height: 85px;
     
-
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -52,6 +51,7 @@ header .content {
 header .logo h1 {
     color: #0037D4;
     cursor: pointer;
+    font-size: 3.6rem;
 }
 
 header nav ul {
@@ -67,7 +67,7 @@ header nav ul li a {
     padding: 1rem 2.4rem;
     font-weight: 600;
 
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 header nav ul li a:hover {
@@ -78,18 +78,18 @@ header nav ul li a:hover {
 header .buttons {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 header .buttons li {
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 header .buttons button {
-    padding: 0.9rem 1.8rem;
-    font-size: 1.6rem;
+    padding: 1.2rem 2rem;
+    font-size: 1.8rem;
 }
 
 header .buttons button:hover {
