@@ -51,7 +51,8 @@ header .content {
 
     height: 85px;
     
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -113,9 +114,12 @@ header .buttons button {
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+    width: 90%;
+    flex: 1;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1300px;
 } 
 
 #text-main .content h1 {
@@ -174,11 +178,13 @@ header .buttons button {
 #instructors .content{
     display: flex;
     align-items: center;
-    max-width: 1200px;
+
+    width: 90%;
+    max-width: 1300px;
 
     margin: 0 auto;
 
-    gap: 3.6rem;
+    gap: 6.4rem;
 }
 
 #instructors h1 {
@@ -210,7 +216,7 @@ header .buttons button {
 #popular-courses .content {
 
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 #popular-courses .header-popularCourses h1 {
@@ -279,6 +285,65 @@ header .buttons button {
     display: none;
 }
  */
+
+ #bonus {
+     padding: 6.4rem;
+     background: #f8f8f8;
+ }
+
+#bonus .content {
+    width: 90%;
+    max-width: 1300px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-gap: 6.4rem;
+    grid-template-areas: "texts bonus";
+}
+
+#bonus .content .column-texts h1 {
+    font-size: 5rem;
+}
+
+#bonus .content .column-texts h3 {
+    color: #9D9497;
+    font-weight: 500;
+    font-size: 2.6rem;
+
+    margin: 1.6rem 0;
+}
+
+#bonus .content .column-texts button {
+    padding: 2rem 2.6rem;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+
+    gap: 1.6rem;
+}
+
+#bonus .content .bonus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 4.8rem;
+}
+
+#bonus .content .bonus img {
+    width: 7rem;
+}
+
+#bonus .content .bonus h2 {
+    margin: 0.8rem 0 1.2rem 0;
+}
+
+#bonus .content .bonus h3 {
+    color: #9D9497;
+    font-weight: 500;
+}
+
+
 
 
 
