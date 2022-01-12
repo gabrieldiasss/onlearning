@@ -405,7 +405,63 @@ header .buttons button {
     font-weight: 400;
 }
 
+footer {
+    padding: 6.4rem 0;
+}
 
+footer .container {
+
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+
+footer .container .company h2{
+    font-size: 3rem;
+    color: #0037D4;
+
+    cursor: pointer;
+}
+
+footer .container .company p {
+    font-size: 2rem;
+    color: #9D9497;
+
+    margin-top: 1.2rem;
+}
+
+footer .container .company small {
+    margin-top: 4444rem;
+}
+
+footer .container nav ul li{
+    list-style: none;
+    margin-top: 1.2rem;
+}
+
+footer .container nav ul li a{
+    text-decoration: none;
+    color: #9D9497;
+    font-size: 2rem;
+}
+
+footer .container nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 6.4rem;
+}
 
 
 
