@@ -24,9 +24,14 @@ header, footer {
     font-family: Nunito;
 }
 
+input, button {
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
 button {
     cursor: pointer;
-    border: 0;
     background: #0037D4;
     font-weight: 500;
     color: #fff;
@@ -341,6 +346,63 @@ header .buttons button {
 #bonus .content .bonus h3 {
     color: #9D9497;
     font-weight: 500;
+}
+
+#newsletter {
+    padding: 6.4rem 0;
+    background-color: #FFEDE9;
+
+    text-align: center;
+}
+
+#newsletter h1{
+    font-size: 4.8rem;
+}
+
+#newsletter h3 {
+    font-size: 2.6rem;
+    color: #9D9497;
+    font-weight: 500;
+
+    margin: 2.4rem;
+}
+
+#newsletter .newsletter {
+    background: #fff;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 50rem;
+    height: 7rem;
+
+    padding-left: 2rem;
+
+    margin: 0 auto;
+
+    border-radius: 0.8rem;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+#newsletter .newsletter input{
+    font-size: 1.8rem;
+
+    font-family: Poppins;
+    font-weight: 500;
+
+    width: 65%;
+}
+
+#newsletter .newsletter button{
+    width: 30%;
+    font-size: 2rem;
+    box-shadow: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #9D9497;
+    font-weight: 400;
 }
 
 
