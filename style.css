@@ -149,7 +149,7 @@ header .buttons button {
     gap: 1.6rem;
 }
 
-.img {
+.img-model {
     width: 50rem;
     margin-bottom: -5px;
     height: auto;
@@ -199,13 +199,15 @@ header .buttons button {
 }
 
 #popular-courses {
-    padding: 6.4rem;
+    padding: 6.4rem 0;
 }
 
 #popular-courses .content {
 
+    width: 90%;
     margin: 0 auto;
     max-width: 1300px;
+
 }
 
 #popular-courses .header-popularCourses h1 {
@@ -217,20 +219,20 @@ header .buttons button {
     font-weight: 500;
     color: #9D9497;
     margin-top: 1.2rem;
+
+    max-width: 500px;
 }
 
 #popular-courses .header-popularCourses  {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 #popular-courses .header-popularCourses p {
     font-size: 2.4rem;
     font-weight: 500;
     color: #0037D4;
-
 }
 
 #popular-courses .header-popularCourses p:hover {
@@ -240,26 +242,22 @@ header .buttons button {
 
 #popular-courses main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 3.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.6rem;
     margin-top: 6.4rem;
 }
 
-#popular-courses main .box {
-    width: 38rem;
-    position: relative;
-
-    overflow: hidden;
-}
 
 #popular-courses main .box img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    display: block;
     cursor: pointer;
+
+    object-fit: cover;
 }
 
  #bonus {
-     padding: 6.4rem;
+     padding: 6.4rem 0;
      background: #f8f8f8;
  }
 
@@ -299,7 +297,7 @@ header .buttons button {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    gap: 4.8rem;
+    grid-gap: 4.8rem;
 }
 
 #bonus .content .bonus img {
@@ -316,9 +314,13 @@ header .buttons button {
 }
 
 #newsletter {
-    padding: 6.4rem 0;
+    padding: 6.4rem 1.2rem;
     background-color: #FFEDE9;
+    
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -331,6 +333,8 @@ header .buttons button {
     color: #9D9497;
     font-weight: 500;
 
+    max-width: 500px;
+
     margin: 2.4rem;
 }
 
@@ -340,7 +344,7 @@ header .buttons button {
     display: flex;
     justify-content: space-between;
 
-    width: 50rem;
+    width: 35%;
     height: 7rem;
 
     padding-left: 2rem;
@@ -376,51 +380,55 @@ footer {
     padding: 6.4rem 0;
 }
 
-footer .container {
+footer .footer-container {
 
     width: 90%;
     margin: 0 auto;
     max-width: 1300px;
 }
 
-footer .row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-} 
+footer .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1.2rem;
+}
 
-
-footer .container .company h2{
+footer .company h2{
     font-size: 3rem;
     color: #0037D4;
 
     cursor: pointer;
 }
 
-footer .container .company p {
+footer .company p {
     font-size: 2rem;
     color: #9D9497;
 
     margin-top: 1.2rem;
 }
 
-footer .container .company small {
-    margin-top: 4444rem;
+footer .footer-container nav h2 {
+    font-size: 2.8rem;
 }
 
-footer .container nav ul li{
+footer .footer-container nav ul li{
     list-style: none;
     margin-top: 1.2rem;
 }
 
-footer .container nav ul li a{
+footer .footer-container nav ul li a{
     text-decoration: none;
     color: #9D9497;
     font-size: 2rem;
 }
 
-footer .container nav ul li a:hover {
+footer .footer-container nav ul li a:hover {
     text-decoration: underline;
+}
+
+footer .footer-social-network ul{
+    display: flex;
+    gap: 3.2rem;
 }
 
 footer .copyright {
@@ -429,15 +437,3 @@ footer .copyright {
 
     margin-top: 6.4rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
