@@ -80,7 +80,7 @@ header nav ul li a {
     padding: 1rem 2.4rem;
     font-weight: 600;
 
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 header nav ul li a:hover {
@@ -122,7 +122,6 @@ header .buttons button {
     justify-content: space-between;
 
     width: 90%;
-    flex: 1;
     margin: 0 auto;
     max-width: 1300px;
 } 
@@ -152,27 +151,8 @@ header .buttons button {
 
 .img {
     width: 50rem;
-}
-
-#companys{
-    margin: 3.2rem;
-    text-align: center;
-}
-
-#companys h1{
-    font-size: 4.2rem;
-    font-weight: 600;
-}
-
-#companys div{
-    display: flex;
-    align-items: flex-start;
-    gap: 4.6rem;
-
-    justify-content: center;
-
-    margin-top: 2.6rem;
-    cursor: pointer;
+    margin-bottom: -5px;
+    height: auto;
 }
 
 #instructors {
@@ -203,6 +183,10 @@ header .buttons button {
     margin: 2.2rem 0;
 
     color: #9D9497;
+}
+
+#instructors .img-instructor {
+    width: 60rem;
 }
 
 #instructors button {
@@ -256,7 +240,7 @@ header .buttons button {
 
 #popular-courses main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 3.2rem;
     margin-top: 6.4rem;
 }
@@ -273,23 +257,6 @@ header .buttons button {
     height: auto;
     cursor: pointer;
 }
-
-/* #popular-courses main .content {
-    background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
-
-    font-weight: 500;
-
-    color: #fff;
-
-    display: none;
-}
- */
 
  #bonus {
      padding: 6.4rem;
@@ -462,6 +429,10 @@ footer .copyright {
 
     margin-top: 6.4rem;
 }
+
+
+
+
 
 
 
