@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100vh;
+    font-family: Poppins;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header, footer {
+    font-family: Nunito;
+}
+
+input, button {
+    border: 0;
+    outline: 0;
+    background: none;
+    font-family: Poppins;
+}
+
+button {
+    cursor: pointer;
+    background: #0037D4;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-weight: 500;
+    color: #9D9497;
+}
+
+button:hover {
+    transition: .4s;
+    background: #0738be;
+}
