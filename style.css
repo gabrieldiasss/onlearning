@@ -44,7 +44,6 @@ header nav ul li a:hover {
 header .buttons {
     display: flex;
     align-items: center;
-    gap: 3rem;
 }
 
 header .buttons li {
@@ -60,6 +59,8 @@ header .buttons button {
     font-size: 1.8rem;
 
     box-shadow: none;
+
+    margin-left: 3rem;
 }
 
 #text-main {
