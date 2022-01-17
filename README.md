@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![onlearning](https://user-images.githubusercontent.com/71296002/149760831-37d01dbd-1993-4e11-8a6a-3c9619d85945.gif)
 
 Página de vendas 
 
@@ -26,9 +26,6 @@ Here's why:
 * CSS Grid
 * Responsividade
 
-
 ### Built With
 * HTML
 * CSS
-
-
