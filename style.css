@@ -359,7 +359,7 @@ footer .footer-container nav ul li a:hover {
 
 footer .footer-social-network ul{
     display: flex;
-    column-gap: 3.2rem;
+    column-gap: 32px;
 }
 
 footer .copyright {
